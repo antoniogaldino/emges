@@ -114,10 +114,10 @@ nav ul button:hover {
 }
 
 .header-block img {
-  width: 37%;
+  width: 100%;
   position: absolute;
-  right: 2%;
-  bottom: 28%;
+  right: 0%;
+  bottom: -20%;
 }
 
 .header-block .text {
@@ -165,7 +165,7 @@ section .card-wrapper {
 }
 
 section .card-item {
-  height: 400px;
+  height: 600px;
   background: var(--cor3);
   border-radius: 8px;
   display: flex;
@@ -183,7 +183,7 @@ section .card-item {
 }
 
 .card-item img {
-  width: 85%;
+  width: 80%;
 }
 
 .card-item h4 {
