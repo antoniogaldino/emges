@@ -175,7 +175,7 @@ section .card-item {
 }
 
 .card-content {
-  height: 40%;
+  height: 45%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -191,9 +191,10 @@ section .card-item {
 }
 
 .card-item p {
-  width: 90%;
+  width: 80%;
   font-style: italic;
   color: #00000070;
+  text-align: left;
 }
 
 .card-item button {
