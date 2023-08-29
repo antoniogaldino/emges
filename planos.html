@@ -1,101 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EMGeS</title>
-    <link rel="stylesheet" href="planos.css">
-    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Catálogo de Planos</title>
 </head>
 <body>
-    <body>
-        <header>
-            <div class="content">
-                <nav>
-                    <p class="brand"><strong><l>EMGeS</l></strong></p>
-                    <ul>
-                        <li><a href="emges.html">Início</a></li>
-                        <li><a href="serviços.html">Serviços</a></li>
-                        <li><a href="planos.html">Planos</a></li>
-                        <button>Login</button>
-                    </ul>
-                </nav>
-    
-                <div class="header-block">
-                    <div class="text">
-                        <!-- <h2>Engenharia de Manutenção, Gestão e Segurança</h2>
-                        <p>A EMGeS é uma empresa formada por profissionais capacitados e dedicados para realizar serviços de Engenharia, atendendo todas as necessidades dos nossos clientes, seguindo padrões de segurança, normas e legislações.</p> -->
-                    </div>
-                    <img src="imagens/papel de parede.webp" alt="">
-                </div>
-            </div>
-        </header>
-        <section class="catalog" id="catalog">
-            <div class="content">
-              <div class="title-wrapper-catalog">
-                <h3>NOSSOS PLANOS</h3>
-              <div class="card-wrapper">
-                <div class="card-item">
-                  <img src="imagens/Pessoa com equipamento de segurança no canteiro de obras.webp" alt="Car" />
-                 
-                </div>
-                <div class="card-item">
-                  <img src="imagens/Mangueira de incêndio (1).webp" alt="Car" />
-               
-                </div>
-                <div class="card-item">
-                  <img src="imagens/pmoc.webp" alt="Car" />
-                
-                </div>
-                <div class="card-item">
-                  <img src="imagens/nr11.webp" alt="Car" />
-                
-                </div>
-                <div class="card-item">
-                  <img src="imagens/imagem-os-10-itens-mais-autuados-na-nr-12-750x422_edited.webp" alt="Car" />
-                 
-                </div>
-                <div class="card-item">
-                  <img src="imagens/caldeiras-hospitais-1_webp.webp" alt="Car" />
-                
-                </div>
-                <div class="card-item">
-                    <img src="imagens/principios-de-projeto-mecanico.webp" alt="Car" />
-                  
-                  </div>
-                  <div class="card-item">
-                    <img src="imagens/Gestão-da-Manutenção-O-que-é-e-como-utilizar (1).webp" alt="Car" />
-                   
-                  </div>
-                  <div class="card-item">
-                    <img src="imagens/muttuoagenciadetecnologialalabee_lalabee_image_865_webp.webp" alt="Car" />
-                    
-                  </div>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo"><img src="imagens/logo do site.webp" alt=""></div>
+            <ul class="menu">
+                <li><a href="emges.html">Home</a></li>
+                <li><a href="planos.html">Planos</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+            </ul>
+        </nav>
+    </header>
 
-                  
-          </section>
-          
-          <footer>
-            <div class="main">
-              <div class="content footer-links">
-                
-                <div class="footer-social">
-                  <h4>Permaneça Conectado</h4>
-                  <div class="social-icons">
-                    <a href="https://www.instagram.com/emges_/" target="_blank"><img src="imagens/instagram-removebg-preview.png" alt="@emges_"></a>
-                  </div>
+    <section class="catalog">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="plan">
+                    <h2>Plano Básico</h2>
+                    <img src="imagens/Assinatura do Contrato.webp" alt="">
+                   
                 </div>
-                <div class="footer-contact">
-                  <h4>Contato</h4>
-                  <h6>(81) 98243-2990 / (81) 98167-6709</h6>
-                  <h6>contatoemges@gmail.com</h6>
+                <div class="plan">
+                    <h2>Plano Intermediário</h2>
+                    <img src="imagens/Mangueira de incêndio.webp" alt="">
                 </div>
-              </div>
+                <div class="plan">
+                    <h2>Plano Avançado</h2>
+                    <img src="imagens/Gestão-da-Manutenção-O-que-é-e-como-utilizar.webp" alt="">
+                </div>
+                <div class="plan">
+                    <h2>Plano Básico</h2>
+                    <img src="imagens/Assinatura do Contrato.webp" alt="">
+                   
+                </div>
+                <div class="plan">
+                    <h2>Plano Intermediário</h2>
+                    <img src="imagens/Mangueira de incêndio.webp" alt="">
+                </div>
+                <div class="plan">
+                    <h2>Plano Avançado</h2>
+                    <img src="imagens/Gestão-da-Manutenção-O-que-é-e-como-utilizar.webp" alt="">
+                </div>
+                <div class="plan">
+                    <h2>Plano Avançado</h2>
+                    <img src="imagens/Gestão-da-Manutenção-O-que-é-e-como-utilizar.webp" alt="">
+                </div>
             </div>
-            <div class="last">Equipe EMGeS 2023 - Site desenvolvido por Júnior Nascimento.
-          </footer>
-    </body>
-    </html>
-    
+            <button class="prev-btn">&lt;</button>
+            <button class="next-btn">&gt;</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contact-info">
+          <h2>Contato</h2>
+          <p>Email: contatoemges@gmail.com</p>
+          <p>Telefone: (81) 98243-2990 / (81) 98167-6709</p>
+        </div>
+        
+        <div class="social-media">
+          <h2>Redes Sociais</h2>
+          <a href="#" target="_blank">Facebook</a>
+          <a href="#" target="_blank">Twitter</a>
+          <a href="https://www.instagram.com/emges_/" target="_blank">Instagram</a>
+        </div>
+      </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
